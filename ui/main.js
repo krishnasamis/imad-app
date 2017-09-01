@@ -8,7 +8,7 @@ function moveRight(){
     marginLeft=marginLeft+1;
     img.style.marginLeft=marginLeft + "px" ;
     }
-    if(marginLeft>200){
+    if(marginLeft>400){
         marginLeft-1;
         img.style.marginLeft=marginLeft + "px" ;
     }
