@@ -26,6 +26,7 @@ button.onclick=function(){
     };
  //make the request   
  request.open('GET','http://krishnasamis2014it.imad.hasura-app.io/counter',true);
- request.send();
-};
+ request.send(); 
+    console.log('EXECUTED');
+}
 
