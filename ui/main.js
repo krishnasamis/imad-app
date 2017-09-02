@@ -13,6 +13,7 @@ button.onclick=function(){
                 var counter1=request.responseText;
                 var span=document.getElementById('count');
                 span.innerHTML = counter1.toString();
+                console.log("counter Was Sent To Span");
             }
             else 
             { 
