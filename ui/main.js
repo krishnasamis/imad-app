@@ -14,6 +14,12 @@ button.onclick=function(){
                 var span=document.getElementById('count');
                 span.innerHTML = counter1.toString();
             }
+            else 
+            { 
+                alert('There was a problem with the request.'); 
+                
+            }
+
         }
     //not done yet
     };
